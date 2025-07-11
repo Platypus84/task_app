@@ -6,10 +6,16 @@ class S4532 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(children: [
       Text('App Akademie'),
+      SizedBox(
+        height: 20,
+      ),
       Text(
         'App Akademie',
         style: TextStyle(
             fontSize: 16, fontWeight: FontWeight.bold, color: Colors.blue),
+      ),
+      SizedBox(
+        height: 20,
       ),
       Text(
         'App Akademie',
