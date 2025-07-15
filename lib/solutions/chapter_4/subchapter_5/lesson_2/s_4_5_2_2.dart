@@ -20,9 +20,9 @@ class MyStatelessWidget extends StatelessWidget {
           padding: const EdgeInsets.only(top: 16.0),
           child: ElevatedButton(
             onPressed: () => {},
-            child: Text('Klick mich'),
             style: ElevatedButton.styleFrom(
                 backgroundColor: Color.fromARGB(255, 255, 5, 209)),
+            child: Text('Klick mich'),
           ),
         )
       ],
